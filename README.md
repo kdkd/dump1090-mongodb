@@ -5,6 +5,8 @@ This assumes you already have mongodb running on your local system and PHP with 
 
 Run "composer install", then edit the URLs at the top of adsb.php to point to your instances of dump1090/dump978.
 
+beast.php can be run in parallel, it logs all raw packets received to a different collection.
+
 You can run this from cron, if it's already running it won't run a second copy.
 
 
